@@ -1,4 +1,4 @@
-package com.profile;
+package com.basics;
 import java.util.*;
 public class PossibleWords {
 
@@ -51,9 +51,9 @@ public class PossibleWords {
 	}
 	}
 	public static void main(String[] args) {
-		PossibleWords  m=new PossibleWords ();
-		PossibleWords  m1=new PossibleWords ();
-		PossibleWords m2=new PossibleWords ();
+		PossibleWords m=new PossibleWords();
+		PossibleWords m1=new PossibleWords();
+		PossibleWords m2=new PossibleWords();
 	m.identifyPossibleWords("Fi_er","Fever:filter:Filer:Fixer:fiber:fibre:tailor:offer");
 	System.out.println("\n");
 	m1.identifyPossibleWords("t_xer","Thank:Time:tiger:trial:fixer:final:Alpha:tiler:Tiles:tider");
